@@ -1,5 +1,23 @@
 # Changelog
 
+### master
+
+Fixes and Functionality:
+
+- Fixing issue for HEAD method and gziped repsonse (#2666)
+- Compatible with follow-redirect aborts the request (#2689)
+- **BREAKING** Support merging of params (#2656)
+
+Internal:
+
+- Fixing unit test failure in Windows OS (#2601)
+- Add `jsdelivr` and `unpkg` support (#2443)
+
+Documentation:
+
+- Adding jsDelivr link in README (#1110)
+- Revert `finally` as `then` (#2683)
+
 ### 0.19.2 (Jan 20, 2020)
 
 - Remove unnecessary XSS check ([#2679](https://github.com/axios/axios/pull/2679)) (see ([#2646](https://github.com/axios/axios/issues/2646)) for discussion)
