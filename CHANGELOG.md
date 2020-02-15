@@ -6,7 +6,9 @@ Fixes and Functionality:
 
 - Fixing issue for HEAD method and gziped repsonse (#2666)
 - Compatible with follow-redirect aborts the request (#2689)
-- **BREAKING** Support merging of params (#2656)
+- **BREAKING**, changes related to merging configs
+  - Adding responseEncoding to mergeConfig (#1745)
+  - Support merging of params (#2656)
 
 Internal:
 
