@@ -4,6 +4,9 @@
 
 Fixes and Functionality:
 
+- Allow PURGE method in typings (#2191)
+- Adding option to disable automatic decompression (#2661)
+- **BREAKING**, add independent `maxBodyLength` option (#2781)
 - Fixing issue for HEAD method and gziped repsonse (#2666)
 - Compatible with follow-redirect aborts the request (#2689)
 - **BREAKING**, changes related to merging configs
@@ -12,11 +15,18 @@ Fixes and Functionality:
 
 Internal:
 
+- Adding tests for method `options` type definitions (#1996)
+- Add test for redirecting with too large response (#2695)
 - Fixing unit test failure in Windows OS (#2601)
 - Add `jsdelivr` and `unpkg` support (#2443)
 
 Documentation:
 
+- Fixing CHANGELOG.md issue link (#2784)
+- Include axios-hooks in ECOSYSTEM.md (#2003)
+- Added Response header access instructions (#1901)
+- Add `onUploadProgress` and `onDownloadProgress` are browser only (#2763)
+- Update ' sign to ` in proxy spec (#2778)
 - Adding jsDelivr link in README (#1110)
 - Revert `finally` as `then` (#2683)
 
