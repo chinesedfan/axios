@@ -4,6 +4,7 @@
 
 Fixes and Functionality:
 
+- Fixing getting local files (file://) failed (#2470)
 - Allow PURGE method in typings (#2191)
 - Adding option to disable automatic decompression (#2661)
 - **BREAKING**, add independent `maxBodyLength` option (#2781)
