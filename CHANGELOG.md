@@ -4,6 +4,13 @@
 
 Fixes and Functionality:
 
+- Fixing overwrite Blob/File type as Content-Type in browser. (#1773)
+- Fixing an issue that type 'null' is not assignable to validateStatus (#2773)
+- **BREAKING**, Fixing special char encoding (#1671)
+- Fixing password encoding with special characters in basic authentication (#1492)
+- fix 'Network Error' in react native android (#1487)
+- Fixing Cookie Helper with Asyc Components (#1105) (#1107)
+- Fixing 'progressEvent' type (#2851)
 - Fixing getting local files (file://) failed (#2470)
 - Allow PURGE method in typings (#2191)
 - Adding option to disable automatic decompression (#2661)
@@ -13,9 +20,13 @@ Fixes and Functionality:
 - **BREAKING**, changes related to merging configs
   - Adding responseEncoding to mergeConfig (#1745)
   - Support merging of params (#2656)
+  - Refactor mergeConfig without utils.deepMerge (#2844)
 
 Internal:
 
+- Add test with Node.js 12 (#2860)
+- Allow opening examples in Gitpod (#1958)
+- Add CDNJS version badge in README.md (#878)
 - Adding tests for method `options` type definitions (#1996)
 - Add test for redirecting with too large response (#2695)
 - Fixing unit test failure in Windows OS (#2601)
@@ -23,6 +34,15 @@ Internal:
 
 Documentation:
 
+- Adding console log on sandbox server startup (#2210)
+- docs(): Detailed config options environment. (#2088)
+- Include axios-data-unpacker in ECOSYSTEM.md (#2080)
+- Remove axios.all() and axios.spread() from Readme.md (#2727)
+- Update README.md (#2887)
+- Include swagger-taxos-codegen in ECOSYSTEM.md (#2162)
+- Documentation update to clear up ambiguity in code examples (#2928)
+- Update README.md about validateStatus (#2912)
+- Updating documentation for usage form-data (#2805)
 - Fixing CHANGELOG.md issue link (#2784)
 - Include axios-hooks in ECOSYSTEM.md (#2003)
 - Added Response header access instructions (#1901)
