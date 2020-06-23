@@ -13,17 +13,17 @@ jobs:
           days-before-stale: 0.001
           days-before-close: 1
           stale-issue-message: |
-            'Hello! :wave:'
+            Hello! :wave:
 
-            'This issue is being automatically marked as stale because it has not been updated in a while. Please confirm that the issue is still present and reproducible. If no updates or new comments are received the issue will be closed in a few days.'
+            This issue is being automatically marked as stale because it has not been updated in a while. Please confirm that the issue is still present and reproducible. If no updates or new comments are received the issue will be closed in a few days.
 
-            'Thanks'
+            Thanks
           stale-pr-message: |
-            'Hello! :wave:'
+            Hello! :wave:
 
-            'This pull request is being automatically marked as stale because it has not been updated in a while. Please confirm that the issue is still present and reproducible. If no updates or new comments are received the pull request will be closed in a few days.'
+            This pull request is being automatically marked as stale because it has not been updated in a while. Please confirm that the issue is still present and reproducible. If no updates or new comments are received the pull request will be closed in a few days.
 
-            'Thanks'
+            Thanks
           stale-issue-label: 'status:stale'
           stale-pr-label: 'status:stale'
           only-labels: 'status:more info needed'
