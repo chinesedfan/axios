@@ -1,8 +1,6 @@
 name: 'Close Stale'
 
-on:
-  schedule:
-    - cron: '0 0 * * *'
+on: push
 
 jobs:
   auto_close_issues:
